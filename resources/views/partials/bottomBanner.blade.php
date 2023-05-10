@@ -6,23 +6,23 @@
             <h3>FOLLOW US</h3>
             <ul>
                 <li><a href="#">
-                    <img src="{{url('/public/img/footer-facebook.png')}}" alt="icona Facebook">
+                    <img src="../../../img/footer-facebook.png" alt="icona Facebook">
                 </a></li>
 
                 <li><a href="#">
-                    <img src="../assets/img/footer-twitter.png" alt="icona Twitter">
+                    <img src="../../../img/footer-twitter.png" alt="icona Twitter">
                 </a></li>
 
                 <li><a href="#">
-                    <img src="../assets/img/footer-youtube.png" alt="icona Youtube">
+                    <img src="../../../img/footer-youtube.png" alt="icona Youtube">
                 </a></li>
 
                 <li><a href="#">
-                    <img src="../assets/img/footer-pinterest.png" alt="icona Pinterest">
+                    <img src="../../../img/footer-pinterest.png" alt="icona Pinterest">
                 </a></li>
 
                 <li><a href="#">
-                    <img src="../assets/img/footer-periscope.png" alt="icona Periscope">
+                    <img src="../../../img/footer-periscope.png" alt="icona Periscope">
                 </a></li>
             </ul>
         </div>
