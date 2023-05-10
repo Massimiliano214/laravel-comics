@@ -22,6 +22,8 @@ body {
     }
 }
 
+// header
+
 .sectionList {
     list-style: none;
     flex-grow: 1;
@@ -46,4 +48,186 @@ body {
         
     }
     
+}
+
+// main banner
+
+.mainBanner {
+    background-color: rgb(53, 128, 243);
+
+    .containerBannerMain {
+        widows: 1170px;
+        justify-content: center;
+        display: flex;
+        padding: 30px;
+        
+        ul {
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+
+            li {
+                display: flex;
+                align-items: center;
+                color: white;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            img {
+                height: 50px;
+                margin: 10px;
+            }
+        }
+    }
+}
+// main
+
+.hubBg {
+    position: relative;
+    img {
+        
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: top;
+        display: block;
+        
+    }
+    
+    .currentSeries {
+        color: white;
+        position: absolute;
+        left: 450px;
+        bottom: -15px;
+        background-color: rgb(53, 128, 243);
+        padding: 10px 30px;
+    }
+}
+
+.hubBottom {
+    background-color: rgb(34, 34, 34);
+    padding-bottom: 30px;
+    
+
+    .container {
+        flex-wrap: wrap;
+        height: 100%;
+        
+
+        .cardLayout {
+            
+            flex-wrap: wrap;
+            width: calc(100% / 6 - 10px);
+            display: flex;
+            flex-grow: 1;
+            justify-content: center;
+            align-items: flex-start;
+            
+        }
+    }
+
+    
+}
+
+.loadMore {
+    text-align: center;
+   
+    
+    a {
+        background-color: rgb(53, 128, 243);
+        color: white;
+        padding: 15px 50px;
+        font-size: 1.5rem;
+    }
+}
+
+.mainCard {
+    width: calc(1170px / 6 - 10px);
+    margin: 20px auto;
+    padding: 10px;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    h3 {
+        margin: 15px;
+        color: white;
+        font-size: .8rem;
+    }
+    
+}
+
+//bottom banner
+
+.blackBanner {
+    background-color: rgb(51, 51, 52);
+
+    .container {
+        justify-content: space-between;
+
+        .btn {
+            border: 3px blue solid;
+            padding: 10px;
+            color: white;
+        }
+    }
+}
+
+.contactOptions {
+    display: flex;
+    align-items: center;
+    color: rgb(53, 89, 168);
+
+    ul {
+        display: flex;
+
+        li {
+            list-style-type: none;
+        }
+
+
+        img {
+            height: 50px;
+            padding: 10px;
+        }
+    }
+}
+
+
+//footer
+.footContainer {
+    background-image: url(../assets/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+h4 {
+    color: white;
+}
+
+.footerLists {
+    background-image: url(../assets/img/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    .firstList {
+        padding: 50px;
+        
+        ul {
+            list-style-type: none;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: rgb(121, 121, 121);
 }
