@@ -3,3 +3,7 @@
 @section('page_title', 'Comic Shop')
 
 @section('partials.header')
+
+
+
+@section('partials.footer')

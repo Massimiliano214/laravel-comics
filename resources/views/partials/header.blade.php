@@ -7,7 +7,8 @@
         <ul class="sectionList">
             @foreach ($categoriesList as $categoria)
                 
-            <li><a href="#">{{$categorie}}</a></li>
+                <li><a href="#">{{$categoria}}</a></li>
+                
             @endforeach
         </ul>
     </div>    

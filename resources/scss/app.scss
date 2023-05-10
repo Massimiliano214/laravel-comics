@@ -1,1 +1,49 @@
 @import '~bootstrap/scss/bootstrap';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+    img {
+        height: 70px;
+    }
+}
+
+.sectionList {
+    list-style: none;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+        padding: 10px;
+        
+        a {
+            text-decoration: none;
+            color: black;
+            padding-bottom: 36px;
+            
+
+            &:hover {
+                color: rgb(53, 128, 243);
+                border-bottom: 5px solid rgb(53, 128, 243);
+            }
+        }
+
+        
+    }
+    
+}
