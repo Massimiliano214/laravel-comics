@@ -4,6 +4,10 @@
 
 @section('partials.header')
 
+@section('partials.mainBanner')
 
+@section('partials.mainHub')
+
+@section('partials.bottomBanner')
 
 @section('partials.footer')

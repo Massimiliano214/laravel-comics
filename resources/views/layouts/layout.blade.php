@@ -7,9 +7,14 @@
     <title>@yield('page_title')</title>
 </head>
 <body>
+
     @include('partials.header')
 
+    @include('partials.mainBanner')
 
+    @include('partials.mainHub')
+
+    @include('partials.bottomBanner')
 
     @include('partials.footer')
 </body>
