@@ -1,5 +1,5 @@
 <div class="hubBg">
-    <img src="../assets/img/jumbotron.jpg" alt="jumbotron">
+    <img src="../../../img/jumbotron.jpg" alt="jumbotron">
     <div class="currentSeries">
         <h3>CURRENT SERIES</h3>
     </div>
@@ -11,8 +11,8 @@
             @foreach ($comicsData as $item)
             
                 <div class="mainCard">
-                    <img :src="{{$item->thumb}}" alt="comic Photo">
-                    <h3>{{$item->series}}</h3>
+                    <img src="{{$item['thumb']}}" alt="comic Photo">
+                    <h3>{{$item['series']}}</h3>
                 </div>
             @endforeach
         </div>

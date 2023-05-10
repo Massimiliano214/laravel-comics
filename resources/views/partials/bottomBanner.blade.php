@@ -6,7 +6,7 @@
             <h3>FOLLOW US</h3>
             <ul>
                 <li><a href="#">
-                    <img src="../assets/img/footer-facebook.png" alt="icona Facebook">
+                    <img src="{{url('/public/img/footer-facebook.png')}}" alt="icona Facebook">
                 </a></li>
 
                 <li><a href="#">
